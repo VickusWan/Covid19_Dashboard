@@ -1,2 +1,2 @@
 # Covid19_Dashboard
-Connecting a COVID19 database to MySQL
+Connecting a COVID19 database
