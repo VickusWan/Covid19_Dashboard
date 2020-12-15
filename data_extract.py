@@ -8,10 +8,10 @@ This is a temporary script file.
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def show_country():
+def get_countries():
     return country_list
 
-def show_totals():
+def get_totals():
     return [total_cases, total_deaths, total_recovered]
 
 province_cases = pd.read_csv("JHU_COVID19_data/time_series_covid19_confirmed_global.csv").drop(['Lat', 'Long'], axis=1)

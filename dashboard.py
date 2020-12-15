@@ -14,7 +14,7 @@ root.geometry("400x400")
 
 clicked = StringVar()
 clicked.set("Select a country")
-country_list = de.show_country()
+country_list = de.get_countries()
 drop = OptionMenu(root, clicked, *country_list)
 drop.pack()
 
